@@ -9,8 +9,11 @@ function App() {
   };
 
   return (
-    <div className="w-full h-screen bg-white flex items-center  justify-center">
-      <button onClick={onCLick} className="text-7xl p-4 rounded-lg border ">
+    <div className="w-full h-screen bg-slate-100 flex items-center  justify-center">
+      <button
+        onClick={onCLick}
+        className="text-7xl p-4 rounded-lg border-2 border-gray-500 shadow"
+      >
         <span>{text}</span>
       </button>
     </div>
